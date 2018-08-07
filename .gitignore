@@ -1,0 +1,9 @@
+*.sqlite3
+*.env
+.DS_Store
+*pyc
+venv
+.idea
+.vscode
+node_modules
+
