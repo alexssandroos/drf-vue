@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'build.js'
+    filename: 'bundle.js'
   },
   plugins: [
     new BundleTracker({filename: 'webpack-stats.json'}),
